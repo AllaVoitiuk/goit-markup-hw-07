@@ -939,7 +939,7 @@ footer {
 
 /* Форма */
 
-.form-title {
+.form__title {
   
   font-size: 20px;
   line-height: 1.15;
@@ -949,7 +949,7 @@ footer {
   margin-bottom: 12px;
 }
 
-.form-label {
+.form__label {
   display: block;
   position: relative;
   
@@ -960,7 +960,7 @@ footer {
   color: var(--primary-text-color);
 }
 
-.form-input {
+.form__input {
   position: relative;
   width: 100%;
   height: 40px;
@@ -976,11 +976,11 @@ footer {
   transition: border 250ms var(--timing-function);
 }
 
-.form-input:focus {
+.form__input:focus {
   border: 1px solid var(--color-accent);
 }
 
-.form-icon {
+.form__icon {
   position: absolute;
   width: 18px;
   height: 18px;
@@ -990,22 +990,22 @@ footer {
   transform: translateY(-50%);
 }
 
-.form-person.icon {
+.form__person .icon {
   width: 18px;
   height: 18px;
   fill: var(--title-text-color);
   transition: fill 250ms var(--timing-function);
 }
 
-.form-label:focus-within .form-person.icon {
+.form__label:focus-within .form__person .icon {
   fill: var(--color-accent);
 }
 
-.form-label.area {
+.comment {
   margin-bottom: 20px;
 }
 
-.form-feedback {
+.form__feedback {
   width: 100%;
   height: 120px;
   padding: 12px 16px;
@@ -1018,12 +1018,12 @@ footer {
 }
 
 
-.form-feedback:focus {
+.form__feedback:focus {
   border: 1px solid var(--color-accent);
   outline: none;
 }
 
-.checkbox-field {
+.checkbox__field {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1033,7 +1033,7 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.checkbox-consent {
+.checkbox-field__input {
  
   width: 1px;
   height: 1px;
@@ -1044,12 +1044,12 @@ footer {
   overflow: hidden;
 }
 
-.checkbox-label {
+.checkbox-field__label {
  
   left: 24px;
 }
 
-.checkbox-icon {
+.checkbox-field__icon {
   display: inline-block;
   
   width: 16px;
@@ -1065,7 +1065,7 @@ footer {
     background-color 250ms var(--timing-function);
 }
 
-.checkbox-consent:checked ~ .checkbox-icon {
+.checkbox-field__input:checked ~ .checkbox-field__icon {
   background-color: var(--color-accent);
   background-size: contain;
   background-origin: border-box;
@@ -1073,7 +1073,7 @@ footer {
   fill: var(--color-accent);
 }
 
-.checkbox-link {
+.checkbox-field__link {
   color: var(--color-accent);
   text-decoration: underline;
   margin-left: 4px;

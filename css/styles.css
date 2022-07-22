@@ -381,7 +381,7 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.benefits__label--visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;

@@ -865,7 +865,7 @@ footer {
   color: var(--button-primary-focus);
 }
 
-.footer-send.icon {
+.footer-submit__icon.icon {
   width: 24px;
   height: 24px;
   margin-left: 10px;

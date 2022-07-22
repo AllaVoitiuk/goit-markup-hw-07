@@ -259,7 +259,7 @@ img {
 }
 
 /* button portfolio */
-.button.secondary {
+.button__secondary {
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
   cursor: pointer;
@@ -273,15 +273,15 @@ img {
   transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function),
     box-shadow 250ms var(--timing-function);
 }
-.button.secondary:hover,
-.button.secondary:focus {
+.button__secondary:hover,
+.button__secondary:focus {
   color: var(--white-color);
   background-color: var(--color-accent);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.button.secondary.active {
+.button__secondary--active {
   background-color: var(--color-accent);
   color: var(--white-color);
 }
@@ -354,7 +354,7 @@ img {
   line-height: 1.19;
 }
 
-.section-link .title {
+.propose__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -362,21 +362,21 @@ img {
   letter-spacing: 0.06em;
 }
 
-.section-link .text {
+.propose__text {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.9;
 }
 
-.list .section-link {
+.propose__link {
   display: block;
   text-decoration: none;
   transition: box-shadow 250ms var(--timing-function);
   border: 1px solid #eeeeee;
 }
 
-.section-link:hover,
-.section-link:focus {
+.propose__link:hover,
+.propose__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -500,25 +500,25 @@ img {
   color: var(--white-color);
 }
 
-.portfolio-list {
+.portfolio-menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.portfolio-list .list {
+.button-set {
   display: flex;
 }
 
-.button-list {
+.button-set__list {
   margin-right: 8px;
 }
 
-.button-list:last-child {
+.button-set__list:last-child {
   margin-right: 0px;
 }
 
-.portfolio-card .list {
+.propose {
   display: flex;
   padding: 0;
   margin: 0;
@@ -534,36 +534,36 @@ img {
   margin-top: 50px;
 }
 
-.portfolio-link {
+.propose__list {
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
   flex-basis: calc((100% - 90px) / 3);
 }
 
-.portfolio-thumb {
+.propose__thumb {
   position: relative;
   overflow: hidden;
 }
 
-.section-link:hover .portfolio-overley,
-.section-link:focus .portfolio-overley {
+.propose__link:hover .propose__overley,
+.propose__link:focus .propose__overley {
   transform: translateY(0);
 }
 
-.portfolio-content {
+.propose__content {
   padding: 20px 24px;
 }
 
-.portfolio-content .text {
+.propose__text {
   margin-top: 4px;
 }
 
-.portfolio-content .title {
+.propose__title {
   margin-bottom: 0px;
 }
 
-.portfolio-overley {
+.propose__overley {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -575,7 +575,7 @@ img {
   transition: transform 250ms var(--timing-function);
 }
 
-.overley-text {
+.propose__overley-text {
   position: absolute;
   font-size: 18px;
   line-height: 1.56;
@@ -666,11 +666,11 @@ img {
   margin-bottom: 0px;
 }
 
-.social {
+.team-card__list {
   margin-right: 10px;
 }
 
-.social:last-child {
+.team-card__list:last-child {
   margin-right: 0px;
 }
 
@@ -748,6 +748,14 @@ footer {
 .inviting__network {
   display: flex;
   margin-top: 20px;
+}
+
+.inviting__list {
+  margin-right: 10px;
+}
+
+.inviting__list:last-child {
+  margin-right: 0px;
 }
 
 /* .welcome__social {

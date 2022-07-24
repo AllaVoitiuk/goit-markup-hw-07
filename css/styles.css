@@ -147,12 +147,16 @@ img {
 }
 
 .logo {
-  margin-right: 93px;
+  
   color: var(--title-text-color);
   font-family: 'Raleway';
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+}
+
+.header-nav__logo {
+  margin-right: 93px;
 }
 
 .footer__logo {

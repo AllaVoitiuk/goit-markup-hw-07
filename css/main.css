@@ -83,47 +83,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.client__title, .section-team__title, .opportunities__title {
-  margin-bottom: 50px;
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.link {
-  display: inline-block;
-  color: var(--title-text-color);
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.link:hover,
-.link:focus {
-  color: var(--color-accent);
-}
-
-.card {
-  margin-top: 50px;
-}
-
-.card .text {
-  margin-top: 10px;
-}
-
 .container {
   max-width: 1200px;
   padding-left: 15px;
@@ -153,6 +112,39 @@ body {
   margin-bottom: 20px;
   margin-right: 0;
   width: 145px;
+}
+
+.link {
+  display: inline-block;
+  color: var(--title-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--color-accent);
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.client__title, .section-team__title, .opportunities__title {
+  margin-bottom: 50px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button {
@@ -721,6 +713,14 @@ header {
 }
 .team-card__list:last-child {
   margin-right: 0px;
+}
+
+.card {
+  margin-top: 50px;
+}
+
+.card .text {
+  margin-top: 10px;
 }
 
 .social__link {

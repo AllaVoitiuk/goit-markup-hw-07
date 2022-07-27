@@ -439,6 +439,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 20px;
 }
 .checkbox-field__input {
   width: 1px;
@@ -453,7 +454,6 @@ body {
   width: 16px;
   height: 15px;
   border-radius: 2px;
-  margin-top: 7px;
   margin-right: 7px;
   fill: var(--white-color);
   border: 2px solid var(--title-text-color);
@@ -742,7 +742,6 @@ header {
 
 .social__link:hover .social__page,
 .social__link:focus .social__page {
-  background-color: var(--color-accent);
   fill: var(--white-color);
 }
 
